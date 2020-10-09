@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Admin UI</title>
+</head>
+<body>
+    <!-- Header part begins here-->
+    <header class="text__ellipsis">
+        <div class="header__text text__ellipsis">Core Admin</div>
+        <nav>
+            <a href="#" id="nav__home" class="nav__link"><img class="nav__image" src="./images/home-img.jpg" height="17px"width="18px"/>Home</a>
+            <a href="#" class="nav__link "><img class="nav__image" src="./images/person-img.jpg" height="18px"width="14px"/>Users</a>
+            <a href="#" class="nav__link ">Dropdown<img class="nav__image" src="./images/arrow-dwn.png" height="8px"width="10px"/></a>
+        </nav>
+        <input type="text" placeholder="Search" class="header__searchbar">
+        <div class="userinformation">
+        <img class="nav__image" src="./images/user-img.jpg" height="40px"width="51px"/>
+        <a href="#" class="nav__link nav__link--diffrentstyle">John Smith<img class="nav__image" src="./images/arrow-dwn2.jpg" height="8px"width="10px"/></a>
+    </div>
+    </header>
+    <!--Body part after this-->
+    <div class="bodywrapper">
+        <div class="sidenavbar">
+         
+                 <a href="#" class="sidenavbar__item link__style sidenavbar__item--active text__ellipsis"><img  class="sidenavbar__item__image" src="./images/dashboard-img.png" width="27px" height="27px"/>Dashboard</a> 
+                 <a href="#" class="sidenavbar__item link__style text__ellipsis"><img  class="sidenavbar__item__image" src="./images/lab-img.jpg" width="27px" height="27px"/>UI Lab</a> 
+                 <a href="#" class="sidenavbar__item link__style text__ellipsis"><img  class="sidenavbar__item__image" src="./images/forms-img.jpg" width="27px" height="27px"/>Forms</a> 
+                 <a href="#" class="sidenavbar__item link__style text__ellipsis"><img  class="sidenavbar__item__image" src="./images/charts-img.jpg" width="27px" height="27px"/>Charts</a> 
+                 <a href="#" class="sidenavbar__item link__style text__ellipsis"><img  class="sidenavbar__item__image" src="./images/others-img.jpg" width="27px" height="27px"/>Others</a>
+                 
+                
+           
+         
+            <img src="./images/cpu-usage.png" class="sidenavbar__cpusageimage" >
+            <p class="sidenavbar__cpudescription text__ellipsis">CPU Usage</p>
+            <div class="sidenavbar__statsticsitem color1 text__ellipsis">
+                
+                <div class="sidenavbar__statsticsitem__datacontainer ">
+                    <p class="sidenavbar__statsticsitem__headertext ">Orders</p>
+                    <p class="sidenavbar__statsticsitem__datavalue">847</p>
+                </div>
+                <img src="./images/orders-img.png" />
+            </div>
+            <div class="sidenavbar__statsticsitem color2">
+                
+                <div class="sidenavbar__statsticsitem__datacontainer ">
+                    <p class="sidenavbar__statsticsitem__headertext">Income</p>
+                    <p class="sidenavbar__statsticsitem__datavalue">$43.330</p>
+                </div>
+               
+                <img src="./images/income-img.png" />
+          
+                
+            </div>
+            <div class="sidenavbar__statsticsitem color3 text__ellipsis">
+                
+                <div class="sidenavbar__statsticsitem__datacontainer ">
+                    <p class="sidenavbar__statsticsitem__headertext">Reviews</p>
+                    <p class="sidenavbar__statsticsitem__datavalue">847</p>
+                </div>
+                <img src="./images/reviews-img.png" />
+                
+            </div>
+            
+        </div>
+        <!-- Right container to hold the right contents-->
+        <div class="rightcontainer">
+            <div class="titlewrapper">
+                   <div class="titlewrapper__leftcontainer">
+                       <div class="titlewrapper__leftcontainer__firstrow text__ellipsis">
+                       <img src="./images/dashbord2-img.jpg" class="titlewrapper__leftcontainer__image"/>
+                       <span class="titlewrapper__leftcontainer__titletext">Dashboard<span>
+                    </div>
+                        <p class="titlewrapper__leftcontainer__bottomtext text__ellipsis">A subtitle can be added here</p>
+                   </div>
+                   <div class="sidenavbar__statsticsitem color5 text__ellipsis titleitem">
+                
+                    <div class="sidenavbar__statsticsitem__datacontainer ">
+                        <p class="sidenavbar__statsticsitem__headertext " >Orders</p>
+                        <p class="sidenavbar__statsticsitem__datavalue">847</p>
+                    </div>
+                    <img src="./images/orders-img2.png" />
+                </div>
+                <div class="sidenavbar__statsticsitem color1 text__ellipsis titleitem">
+                
+                    <div class="sidenavbar__statsticsitem__datacontainer color2 ">
+                        <p class="sidenavbar__statsticsitem__headertext ">Reviews</p>
+                        <p class="sidenavbar__statsticsitem__datavalue">223</p>
+                    </div>
+                    <img src="./images/income-img.png" />
+                </div>
+                <div class="sidenavbar__statsticsitem color1 text__ellipsis titleitem color4">
+                
+                    <div class="sidenavbar__statsticsitem__datacontainer ">
+                        <p class="sidenavbar__statsticsitem__headertext ">New Visits</p>
+                        <p class="sidenavbar__statsticsitem__datavalue">7930</p>
+                    </div>
+                    <img src="./images/visits-img2.png" />
+                </div>
+
+             </div>
+
+             <!-- Scrollable part below-->
+             <div class="scrollablewrapper">
+                <div class="navigationtitlecontainer">
+                   <div class="navigationtitlecontainer__item">
+                       <img src="./images/home-img2.jpg" width="17px" height="15px"/>
+                       <span class="navigationtitlecontainer__item__text">Home</span>
+                       
+                   </div>
+                   <img src="./images/big-right-arrow.jpg" height="32px" />
+                    <img  src="./images/dashbord2-img.jpg" width="20px" height="17px"/>
+                    <span style="font-size: 14px;margin-left:5px;font-family: 'Roboto', sans-serif;font-weight:100;color: #939393;">Dashboard</span>
+                    
+                
+                </div>
+                <div class="chartscontentwrapper">
+                    <div class="chartscontentleftwrapper">
+                        <div class="chartscontent__firstrow">
+                            <div class="project project__newproject">
+                             <span class="notification__plus">+</span>
+                                <img src="./images/new-project-img.jpg" height="33" width="36">
+                                <span class="project__text">New Project</span>
+                            </div>
+                            <div class="project ">
+                               <span class="notification__count">14</span>
+                                <img src="./images/msgs-img.jpg" height="31" width="44">
+                                
+                                <span class="project__text">Messages</span>
+                            </div>
+                           
+                        </div>
+                        <div class="chartscontent__firstrow">
+                            <div class="project">
+                                <img src="./images/files-img.jpg" height="32" width="41">
+                                <span class="project__text">Files</span>
+                            </div>
+                            <div class="project project__users">
+                               <span class="notification__users">+</span>
+                               <span class="notification__users__no">3</span>
+                              <img src="./images/users-img.jpg" height="36" width="36">
+                                <span class="project__text">Users</span>
+                            </div>
+                            
+                        </div>
+                        <div class="chartscontent__firstrow">
+                            <div class="project">
+                                <img src="./images/facebook-icon.jpg" height="34" width="36">
+                                <span class="project__text">Friends</span>
+                            </div>
+                            <div class="project project__followers">
+                                <span class="notification__followers">+</span>
+                                <span class="notification__followers__no">8</span>
+                                <img src="./images/twitter-icon.jpg" height="38" width="40">
+                                <span class="project__text">Followers</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="chartsrightcontainer">
+                        <div class="chartsheader">
+                            <span class="chartsheader__text">Charts</span>
+                            <img src="./images/setting-img.jpg" class="chartsheader__image"/>
+                        </div>
+                        <div class="chartbodywrapper">
+                        <div class="chartstats">
+                            <div class="chartstats__firstrow text__ellipsis">
+                                <img src="./images/visits-img.jpg" height="36px" width="36px"/>
+                                <span class="chartstats__firstrow__text">973,119</span>
+                            </div>
+                            <div class="progressbar">
+                                <div class="progressbar__filled">
+                                    
+                                </div>
+                            </div>
+                            <span class="chartstats__text ">TOTAL VISITS</span>
+                            <div class="newvisitorsrowwrapper">
+                            <div class="newvisitorsrow">
+                                <div class="newvisitors ">
+                                   <img src="./images/new-visitors-img.jpg"/>
+                                   <span class="newvisitors__value">8,800</span>
+                                </div>
+                                <div class="progressbar">
+                                    <div class="progressbar__filled">
+                                    </div>
+                                </div>
+                                <span class="chartstats__text">NEW VISITORS</span>
+                            </div>
+                            <div class="newvisitorsrow">
+                                <div class="newvisitors">
+                                   <img src="./images/new-visitors-img.jpg"/>
+                                   <span class="newvisitors__value">25668</span>
+                                </div>
+                                <div class="progressbar">
+                                    <div class="progressbar__filled">
+                                    </div>
+                                </div>
+                                <span class="chartstats__text">PAGE VIEWS</span>
+                            </div>
+                            </div>
+                        </div>
+                      <img class="chart__image" src="./images/chart.jpg"/>
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="calendarpartwrapper">
+                    <div class="calendarcontainer">
+                       <div class="calendarheader">
+                           <div class="calendarheader__firstcontainer">
+                               <span class="calendarheader__firstcontainer__text">Full Calendar</span>
+                           </div>
+                           <div class="calendarheader__secondcontainer">
+                            <span class="calendarheader__secondcontainer__text">month</span>
+                           </div>
+                           <div class="calendarheader__thirdcontainer">
+                            <span class="calendarheader__thirdcontainer__text">week</span>
+                           </div>
+                           <div class="calendarheader__fourthcontainer">
+                            <span class="calendarheader__fourthcontainer__text">day</span>
+                           </div>
+                       </div>
+                       <div class="monthindicator">
+                          <img src="./images/lft-arrow.jpg" height="14px" width="12px"/>
+                          <span class="monthindicator__text">April 2013</span>
+                          <img src="./images/rght-arrow.jpg" height="14px" width="12px"/>
+                       </div>
+                       <div class="dayoftheweekcontainer">
+                           <div class="dayoftheweek__item" style="border-left: none;">
+                               <span class="dayoftheweek__item__text">Sun</span>
+                           </div>
+                           <div class="dayoftheweek__item">
+                            <span class="dayoftheweek__item__text">Mon</span>
+                        </div>
+                        <div class="dayoftheweek__item">
+                            <span class="dayoftheweek__item__text">Tue</span>
+                        </div>
+                        <div class="dayoftheweek__item">
+                            <span class="dayoftheweek__item__text">Wed</span>
+                        </div>
+                        <div class="dayoftheweek__item">
+                            <span class="dayoftheweek__item__text">Thu</span>
+                        </div>
+                        <div class="dayoftheweek__item">
+                            <span class="dayoftheweek__item__text">Fri</span>
+                        </div>
+                        <div class="dayoftheweek__item" style="border-right:none">
+                            <span class="dayoftheweek__item__text">Sat</span>
+                        </div>
+                       </div>
+                       <div class="datewrapper">
+                          <div class="daterowwrapper">
+                            <div class="dateitem">
+                                <span class="dateitem__datetext" >31</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">1</span>
+                                <p class="dateitem__reminder">All Day  Event</p>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">2</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">3</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">4</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">5</span>
+                            </div>
+                            <div class="dateitem" style="border-right: none;" >
+                                <span class="dateitem__datetext" >6</span>
+                            </div>
+                          </div> 
+                          <div class="daterowwrapper">
+                            <div class="dateitem">
+                                <span class="dateitem__datetext" >7</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">8</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">9</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">10</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">11</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">12</span>
+                            </div>
+                            <div class="dateitem" style="border-right: none;" >
+                                <span class="dateitem__datetext" >13</span>
+                            </div>
+                          </div> 
+                          <div class="daterowwrapper">
+                            <div class="dateitem">
+                                <span class="dateitem__datetext" >14</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">15</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">16</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">17</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">18</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">19</span>
+                                <p class="dateitem__reminder__long">Long Event</p>
+                            </div>
+                            <div class="dateitem" style="border-right: none;" >
+                                <span class="dateitem__datetext" >20</span>
+                            </div>
+                          </div> 
+                          <div class="daterowwrapper daterowrapper--longer">
+                            <div class="dateitem">
+                                <span class="dateitem__datetext" >21</span>
+                                <p class="dateitem__reminder__long">Long Event</p>
+                                <p class="dateitem__reminder dateitem__reminder--below">4p Repeating  Event</p>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">22</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">23</span>
+                            </div>
+                            <div class="dateitem dateitem--diffcolor">
+                                <span class="dateitem__datetext ">24</span>
+                                <p class="dateitem__reminder dateitem__reminder--diff">10:30am Meeting</p>
+                                <p class="dateitem__reminder__long dateitem__reminder__long--diff">12pm Lunch</p>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">25</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">26</span>
+                            </div>
+                            <div class="dateitem" style="border-right: none;" >
+                                <span class="dateitem__datetext" >27</span>
+                            </div>
+                          </div> 
+                          <div class="daterowwrapper daterowrapper--longer">
+                            <div class="dateitem">
+                                <span class="dateitem__datetext" >28</span>
+                                <p class="dateitem__reminder__long">Click for Google</p>
+                                <p class="dateitem__reminder dateitem__reminder--below">4p Repeating  Event</p>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">29</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">30</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">31</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">1</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">2</span>
+                            </div>
+                            <div class="dateitem" style="border-right: none;" >
+                                <span class="dateitem__datetext" >3</span>
+                            </div>
+                          </div>
+                          <div class="daterowwrapper ">
+                            <div class="dateitem">
+                                <span class="dateitem__datetext" >4</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">5</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">6</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">7</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">8</span>
+                            </div>
+                            <div class="dateitem">
+                                <span class="dateitem__datetext">9</span>
+                            </div>
+                            <div class="dateitem" style="border-right: none;" >
+                                <span class="dateitem__datetext" >10</span>
+                            </div>
+                          </div>
+                          
+                       </div>
+                    </div>
+                    <div class="newswrapper">
+                        <div class="newswrapperheader">
+                           <span class="newswrapperheader__text">News with avatars(scrollable box)</span>
+                           <span class="newswrapper__no">178</span>
+                        </div>
+                        <div class="newsscrollablewrapper">
+                            
+                        <div class="newsitem">
+                            <div class="newitem-image"><img  src="./images/right-mark.jpg" width="50px" height="50px"/></div>
+                            <div class="newsvalue">
+                                <p class="news__header__text">Twitter Bootstrap v3.0 is coming!</p>
+                                <p class="news__text" >With 2.2.2 out of the door,our attention has shifted almost entirely to the next major update to the project....</p>
+                            </div>
+                                <div class="newsdate">
+                                    <span class="newsdate__day">06</span>
+                                    <span class="newsdate__month">jan</span>
+                                </div>
+                            </div>
+                            <div class="newsitem">
+                                <img class="newitem-image" src="./images/bulb-img.jpg" width="50px" height="50px"/>
+                                <div class="newsvalue">
+                                    <span class="news__header__text">Ruby on Rails 4.0</span>
+                                    <p class="news__text">Rails 4.0 is still unfinished , but it is shaping up to become a great release ...</p>
+                                </div>
+                                    <div class="newsdate">
+                                        <span class="newsdate__day">11</span>
+                                        <span class="newsdate__month">feb</span>
+                                    </div>
+                                </div>
+                                <div class="newsitem">
+                                    <img class="newitem-image" src="./images/mobile-img.jpg" width="50px" height="50px"/>
+                                    <div class="newsvalue">
+                                        <span class="news__header__text">All about SCSS</span>
+                                        <p class="news__text">Saass makes CSS fun again.Sass is an extendion of CSS3 , adding nested rules ...</p>
+                                    </div>
+                                        <div class="newsdate">
+                                            <span class="newsdate__day">04</span>
+                                            <span class="newsdate__month">mar</span>
+                                        </div>
+                                    </div>
+                                    <div class="newsitem">
+                                        <img class="newitem-image" src="./images/right-mark.jpg" width="50px" height="50px"/>
+                                        <div class="newsvalue">
+                                            <span class="news__header__text">Twitter Bootstrap v3.0 is coming!</span>
+                                            <p class="news__text" >With 2.2.2 out of the door,our attention has shifted almost entirely to the next major update to the project....</p>
+                                        </div>
+                                            <div class="newsdate">
+                                                <span class="newsdate__day">22</span>
+                                                <span class="newsdate__month">dec</span>
+                                            </div>
+                                        </div>
+                                        <div class="newsitem">
+                                            <img class="newitem-image" src="./images/right-mark2.jpg" width="50px" height="50px"/>
+                                            <div class="newsvalue">
+                                                <span class="news__header__text">Twitter Bootstrap v3.0 is coming!</span>
+                                                <p class="news__text" >With 2.2.2 out of the door,our attention has shifted almost entirely to the next major update to the project....</p>
+                                            </div>
+                                                <div class="newsdate">
+                                                    <span class="newsdate__day">06</span>
+                                                    <span class="newsdate__month">jan</span>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="newsitem">
+                                                <img class="newitem-image" src="./images/bulb-img.jpg" width="50px" height="50px"/>
+                                                <div class="newsvalue">
+                                                    <span class="news__header__text">Ruby on Rails 4.0</span>
+                                                    <p class="news__text">Rails 4.0 is still unfinished , but it is shaping up to become a great release ...</p>
+                                                </div>
+                                                    <div class="newsdate">
+                                                        <span class="newsdate__day">11</span>
+                                                        <span class="newsdate__month">feb</span>
+                                                    </div>
+                                                </div>
+                                                <div class="newsitem">
+                                                    <img class="newitem-image" src="./images/mobile-img.jpg" width="50px" height="50px"/>
+                                                    <div class="newsvalue">
+                                                        <span class="news__header__text">All about SCSS</span>
+                                                        <p class="news__text">Saass makes CSS fun again.Sass is an extendion of CSS3 , adding nested rules ...</p>
+                                                    </div>
+                                                        <div class="newsdate">
+                                                            <span class="newsdate__day">04</span>
+                                                            <span class="newsdate__month">mar</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="newsitem">
+                                                        <img class="newitem-image" src="./images/right-mark.jpg" width="50px" height="50px"/>
+                                                        <div class="newsvalue">
+                                                            <span class="news__header__text">Twitter Bootstrap v3.0 is coming!</span>
+                                                            <p class="news__text" >With 2.2.2 out of the door,our attention has shifted almost entirely to the next major update to the project....</p>
+                                                        </div>
+                                                            <div class="newsdate">
+                                                                <span class="newsdate__day">22</span>
+                                                                <span class="newsdate__month">dec</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="newsitem">
+                                                            <img class="newitem-image" src="./images/right-mark2.jpg" width="50px" height="50px"/>
+                                                            <div class="newsvalue">
+                                                                <span class="news__header__text">Twitter Bootstrap v3.0 is coming!</span>
+                                                                <p class="news__text" >With 2.2.2 out of the door,our attention has shifted almost entirely to the next major update to the project....</p>
+                                                            </div>
+                                                                <div class="newsdate">
+                                                                    <span class="newsdate__day">06</span>
+                                                                    <span class="newsdate__month">jan</span>
+                                                                </div>
+                                                                
+                                                            </div>
+                                                            <div class="newsitem">
+                                                                <img class="newitem-image" src="./images/bulb-img.jpg" width="50px" height="50px"/>
+                                                                <div class="newsvalue">
+                                                                    <span class="news__header__text">Ruby on Rails 4.0</span>
+                                                                    <p class="news__text">Rails 4.0 is still unfinished , but it is shaping up to become a great release ...</p>
+                                                                </div>
+                                                                    <div class="newsdate">
+                                                                        <span class="newsdate__day">11</span>
+                                                                        <span class="newsdate__month">feb</span>
+                                                                    </div>
+                                                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="commentcontentwrappper">
+                        <div class="commentheader">
+                            <img src="./images/VMware Player.jpg" width="40px" height="40px"/>
+                            <div class="commentbox">
+                                <div class="commenticon">
+                                    COMMENT
+                                </div>
+                                <p class="commenticon__para"><b>Michael</b><span class="commentbox__diff"> posted a comment on this task:</span></span><span class="commentbox__coreadmin"> <b>Core Admin</b></span></p>
+                                <div class="commentbox__time">
+                                    <img src="./images/time.jpg" height="14px" width="16px"/>
+                                    <span class="commentbox__diff">3 minutes ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="commentcontent">
+                           <p class="commentcontent__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium eleifend bibendum. Nulla lorem purus, pharetra id volutpat nec, luctus vitae ex. Nulla metus urna, sodales a iaculis nec, egestas sed quam. Duis vestibulum, diam id cursus aliquam, magna enim vestibulum erat, at aliquam nisi dui eu ligula. Etiam rhoncus, ipsum ac porta molestie, massa est maximus lorem, vel tempor nisi neque in nulla. Aenean sit amet neque in dolor interdum semper. In at nisl vel enim vehicula condimentum. Nam pretium sit amet ex sit amet commodo. </p>
+                            <div class="attachment">
+                                <img src="./images/attch.jpg"/>
+                                <span class="attachment__text">project_news.docx</span>
+                            </div>
+                        </div>
+                        <div class="commentheader commentheader__margin">
+                            <img src="./images/face2.png" width="40px" height="40px"/>
+                            <div class="commentbox commentbox__border">
+                                <div class="commenticon commenticon__task">
+                                    TASK
+                                </div>
+                                <p class="commenticon__para"><b>Michael</b><span class="commentbox__diff"> completed this task:</span></span><span class="commentbox__coreadmin"> <del><b>Core Admin</b></del></span></p>
+                                <div class="commentbox__time">
+                                    <img src="./images/time.jpg" height="14px" width="16px"/>
+                                    <span class="commentbox__diff">6 minutes ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="commentheader commentheader__margin">
+                            <img src="./images/face3.png" width="40px" height="40px"/>
+                            <div class="commentbox">
+                                <div class="commenticon commenticon__file">
+                                    FILE
+                                </div>
+                                <p class="commenticon__para"><b>John</b><span class="commentbox__diff"> added 3 new files in project:</span></span><span class="commentbox__coreadmin"> <b>Core Admin</b></span></p>
+                                <div class="commentbox__time">
+                                    <img src="./images/time.jpg" height="14px" width="16px"/>
+                                    <span class="commentbox__diff">12 minutes ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="commentcontent commentcontent__padding">
+                           <div class="photowrapper">
+                            <div class="photo">
+                                <span class="photo__text">240X100</span>
+                            </div>
+                           </div>
+                            <div class="photowrapper photowrapper--blueborder">
+                                <div class="photo">
+                                    <span class="photo__text">240X100</span>
+                                </div>
+                           </div>
+                           <div class="photowrapper">
+                            <div class="photo">
+                                <span class="photo__text">240X100</span>
+                            </div>
+                           </div>
+                            </div>
+                        </div>
+                       <div class="admincommentwrapper">
+                           <div class="admintextwrapper">
+                           <div class="admincommenttext">
+                               <p style="font-weight: 500;">Add a comment for project <b class="admin__black">Core Amin</b></p>
+                               <p class="admincomment_small"><i>Click on the textareabelow to expand it!</i></p>
+                           </div>
+                           <img src="./images/face2.png" width="50px" height="50px"/>
+                        </div>
+                        <div class="admincommentarea">
+                            <div class="commentarea">
+
+                                <textarea id="admincomment__text" class="admincomment__text" name="w3review" rows="4" cols="5" placeholder="add a comment (click to expand)" >
+                                </textarea>
+                                   </div>
+                        </div>
+                        </textarea>
+                       </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
