@@ -111,14 +111,15 @@ margin-left: 10px;
 }
 .bodywrapper
 {
-    height: calc(100% - 50px);
     display: flex;
+    
 }
 .sidenavbar
 {
     background-color: #111518;
-    height: 100%;
+   position: sticky;
     width:200px;
+    height: auto;
     overflow: hidden;   
 }
 .sidenavbar__item
@@ -300,7 +301,6 @@ display: inline-block;
 .chartscontentwrapper
 {
     display: flex;
-    margin-left: 20px;
     height: 360px;
  
    
@@ -441,7 +441,7 @@ display: inline-block;
     margin-left:30px;
     width:calc(100% - 260px);
     margin-top:30px;
-    margin-right: 20px; 
+    
 }
 .chartsheader
 {
@@ -571,7 +571,7 @@ margin-left:50px;
 .calendarpartwrapper
 {
   
-    margin:10px 20px 20px 20px;
+    margin-top:10px;
     height: 800px;
     display: flex;
     column-gap: 30px;
@@ -914,7 +914,7 @@ text-overflow: ellipsis;
     
     margin-top: 40px;
     padding-left:40px;
-    padding-right:20px;
+    
     font-family: 'Roboto',sans-serif;
     
 }
@@ -1073,7 +1073,7 @@ text-overflow: ellipsis;
 .admincommentwrapper
 {
     background-color: white;
-    margin: 20px 20px 20px 100px;
+    margin: 20px 0px 20px 100px;
     border: 1px solid #ccc;
     border-radius: 5px;
     display: flex;
@@ -1226,7 +1226,8 @@ color:white;
 }
 
 
-
-
-
-
+.mainbody
+{
+    background-color: #f0f0f0;
+    padding:30px 20px;
+}
