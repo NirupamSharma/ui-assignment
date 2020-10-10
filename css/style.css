@@ -1185,3 +1185,48 @@ border-bottom: 10.1px solid #ccc;
     border-color: transparent #ccc transparent transparent;
     border-width: 9px;
 }
+
+/* Progress part css below*/
+
+
+#svg circle {
+  stroke-dashoffset: 100;
+  transition: stroke-dashoffset 1s linear;
+  stroke: #666;
+  stroke-width: 1em;
+}
+#svg #bar {
+  stroke: #379300;
+}
+#cont {
+text-align:center;
+color:white;
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: 2em auto;
+  
+  border-radius: 100%;
+  position: relative;
+}
+#cont:after {
+  position: absolute;
+  display: block;
+  height: 160px;
+  width: 160px;
+  left: 50%;
+  top: 50%;
+  content: attr(data-pct)"%";
+  margin-top: -80px;
+  margin-left: -80px;
+  border-radius: 100%;
+  line-height: 160px;
+  font-size: 2em;
+  text-shadow: 0 0 0.5em black;
+}
+
+
+
+
+
+

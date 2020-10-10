@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+   
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>Admin UI</title>
 </head>
@@ -35,7 +35,16 @@
                 
            
          
-            <img src="./images/cpu-usage.png" class="sidenavbar__cpusageimage" >
+            
+
+<div id="cont" data-pct="100" >
+   
+    <svg id="svg" width="200" height="200" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <circle r="70" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+      <circle id="bar" r="70" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+    </svg>
+    </div>
+    
             <p class="sidenavbar__cpudescription text__ellipsis">CPU Usage</p>
             <div class="sidenavbar__statsticsitem color1 text__ellipsis">
                 
